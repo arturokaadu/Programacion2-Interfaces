@@ -9,5 +9,5 @@ package tp8.p2;
  * @author artur
  */
 public interface Pago {
-    
+   public void procesarPago(double monto);
 }

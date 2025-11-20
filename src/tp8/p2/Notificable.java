@@ -9,5 +9,5 @@ package tp8.p2;
  * @author artur
  */
 public interface Notificable {
-    void notificar(String mensaje);
+    void notificar(String nuevoEstado);
 }

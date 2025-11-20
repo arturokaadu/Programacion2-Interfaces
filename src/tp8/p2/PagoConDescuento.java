@@ -8,6 +8,6 @@ package tp8.p2;
  *
  * @author artur
  */
-public interface PagoConDescuento {
-    
+public interface PagoConDescuento extends Pago {
+   public double aplicarDescuento(double monto);
 }
